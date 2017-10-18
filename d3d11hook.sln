@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d3d11hook", "d3d11hook.vcxproj", "{119F3BCC-4D4E-4FDA-877E-A708963BB87A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mininject", "mininject\mininject.vcxproj", "{91A999EB-7CFC-4C5F-A432-CBFC410B3BF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A} = {119F3BCC-4D4E-4FDA-877E-A708963BB87A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Release|x64.ActiveCfg = Release|x64
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Release|x64.Build.0 = Release|x64
+		{91A999EB-7CFC-4C5F-A432-CBFC410B3BF5}.Release|x64.ActiveCfg = Release|x64
+		{91A999EB-7CFC-4C5F-A432-CBFC410B3BF5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
