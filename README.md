@@ -1,2 +1,2 @@
 # sinbadssource
-working version of sinbads source.
+Broken version of sinbads source as of 10/18
